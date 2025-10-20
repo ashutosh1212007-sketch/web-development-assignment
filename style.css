@@ -1,0 +1,75 @@
+nav {
+  background-color: #216bd1; 
+  position: fixed;   
+  top: 0;           
+  left: 0;
+  text-align: center; 
+  width: 100%;     
+  padding: 10px 0;    
+}
+
+nav a {
+  color: rgb(250, 245, 245);      
+  padding: 10px 20px;        
+}
+
+nav a:hover {
+  background-color: #555;  
+  color: #f0cd08; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5;
+  padding-top: 60px;
+  margin: 0%;
+  
+}
+nav {
+  background-color: #1E88E5;
+  text-align: center;
+  padding: 10px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+  background-color: #1565C0;
+  color: #FFC107; 
+}
+h1 {
+  color: #091e98;
+  text-align: center;
+  margin-top: 40px;
+}
+p {
+  color: #40919b;
+  font-size: 18px;
+  margin: 10px auto;
+}
+ul {
+    color: #445608;
+    font-size: 18px;
+    margin: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  color: rgb(11, 11, 215);
+}
+input{
+    color: #1565C0;
+    background-color: #f0cd08;
+}
+textarea{
+    color: #1565C0;
+    background-color: #f0cd08;
+}
+
